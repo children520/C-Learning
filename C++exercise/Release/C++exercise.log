@@ -1,0 +1,21 @@
+﻿生成启动时间为 2017/12/14 15:22:02。
+     1>项目“C:\Users\aaa\documents\visual studio 2010\Projects\C++exercise\C++exercise\C++exercise.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\C++exercise.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\C++exercise.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt exercise1.cpp
+         exercise1.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\aaa\documents\visual studio 2010\Projects\C++exercise\Release\C++exercise.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\C++exercise.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\aaa\documents\visual studio 2010\Projects\C++exercise\Release\C++exercise.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\aaa\documents\visual studio 2010\Projects\C++exercise\Release\C++exercise.lib" /MACHINE:X86 Release\C++exercise.obj
+         Release\exercise1.obj
+         Release\exercise2.obj
+         Release\stdafx.obj
+     1>exercise2.obj : error LNK2005: _main 已经在 exercise1.obj 中定义
+     1>LINK : warning LNK4067: 不明确的入口点；选定“mainCRTStartup”
+     1>C:\Users\aaa\documents\visual studio 2010\Projects\C++exercise\Release\C++exercise.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“C:\Users\aaa\documents\visual studio 2010\Projects\C++exercise\C++exercise\C++exercise.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.97
